@@ -25,7 +25,7 @@ export default function Navbar() {
                   href={item.href}
                   className="flex items-center justify-center w-full h-full rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors"
                 >
-                  <item.icon className="size-4" />
+                  <item.icon className="size-5" />
                 </Link>
               </TooltipTrigger>
               <TooltipContent>
@@ -45,7 +45,7 @@ export default function Navbar() {
                     href={social.url}
                     className="flex items-center justify-center w-full h-full rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors"
                   >
-                    <social.icon className="size-4" />
+                    <social.icon className="size-5" />
                   </Link>
                 </TooltipTrigger>
                 <TooltipContent>
@@ -79,8 +79,8 @@ function ThemeToggle() {
       className="flex items-center justify-center w-full h-full rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      <SunIcon className="h-[1.2rem] w-[1.2rem] text-neutral-800 dark:hidden dark:text-neutral-200" />
-      <MoonIcon className="hidden h-[1.2rem] w-[1.2rem] text-neutral-800 dark:block dark:text-neutral-200" />
+      <SunIcon className="h-5 w-5 text-neutral-800 dark:hidden dark:text-neutral-200" />
+      <MoonIcon className="hidden h-5 w-5 text-neutral-800 dark:block dark:text-neutral-200" />
     </button>
   );
 }
