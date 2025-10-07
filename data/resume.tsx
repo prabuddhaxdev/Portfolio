@@ -63,7 +63,7 @@ export const DATA = {
       school: "Indian Institute of Technology (IIT), Patna",
       href: "",
       degree: "Bachelor's Degree in Computer Science",
-      logoUrl: "/logo.png", // ✅ Fixed missing space and consistent path style
+      logoUrl: "/logo.png",
       start: "2024",
       end: "Current",
     },
