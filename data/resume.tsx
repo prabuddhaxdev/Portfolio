@@ -4,11 +4,13 @@ import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Prabuddha Narayan Datta",
-  initials: "PD",
+  initials: "PND",
   url: "https://dillion.io",
   location: "India",
   description:
     "Capable of handling end-to-end fullstack projects and codebases.",
+  avatarUrl: "/avatar.jpg",
+  summary: `I am a passionate full-stack developer with expertise in modern web technologies. Currently pursuing my Bachelor's degree in Computer Science at IIT Patna, I have built numerous scalable applications using React, Next.js, Node.js, and various databases. I enjoy creating efficient, user-friendly solutions and am always eager to learn new technologies and tackle challenging problems.`,
   skills: [
     "React",
     "JavaScript",
@@ -58,12 +60,27 @@ export const DATA = {
     },
   },
 
+  work: [
+    {
+      company: "Freelance Developer",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack Developer",
+      logoUrl: "/freelance.png",
+      start: "2024",
+      end: "Present",
+      description:
+        "Working on various full-stack projects using modern web technologies including React, Next.js, Node.js, and databases. Delivering scalable solutions for clients with focus on performance and user experience.",
+    },
+  ],
+
   education: [
     {
       school: "Indian Institute of Technology (IIT), Patna",
       href: "",
       degree: "Bachelor's Degree in Computer Science",
-      logoUrl: "/logo.png",
+      logoUrl: "/IITP.png",
       start: "2024",
       end: "Current",
     },
@@ -91,12 +108,12 @@ export const DATA = {
         {
           type: "Live",
           href: "https://vidsvault.vercel.app/",
-          icon: Icons.external,
+          icon: <Icons.external className="size-3" />,
         },
         {
           type: "Source",
           href: "https://github.com/Rupesh-Piwal/video-vault/blob/main/README.md",
-          icon: Icons.github,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/dashboard.png",
@@ -124,12 +141,12 @@ export const DATA = {
         {
           type: "Live",
           href: "https://finsyncai.vercel.app",
-          icon: Icons.external,
+          icon: <Icons.external className="size-3" />,
         },
         {
           type: "Source",
           href: "https://github.com/Rupesh-Piwal/finsync/blob/main/README.md",
-          icon: Icons.github,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/fnsync.png",
@@ -157,12 +174,12 @@ export const DATA = {
         {
           type: "Live",
           href: "https://ichofy.onrender.com/",
-          icon: Icons.external,
+          icon: <Icons.external className="size-3" />,
         },
         {
           type: "Source",
           href: "https://github.com/Rupesh-Piwal/Ichofy/blob/main/Readme.md",
-          icon: Icons.github,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/ichofy_thumbnail.png",
@@ -186,12 +203,12 @@ export const DATA = {
         {
           type: "Live",
           href: "https://webgn-ai.vercel.app/",
-          icon: Icons.external,
+          icon: <Icons.external className="size-3" />,
         },
         {
           type: "Source",
           href: "https://github.com/Rupesh-Piwal/ai-web-gen/blob/main/README.md",
-          icon: Icons.github,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/web-gen.png",
@@ -216,12 +233,12 @@ export const DATA = {
         {
           type: "Live",
           href: "https://talent-hire-xi.vercel.app/",
-          icon: Icons.external,
+          icon: <Icons.external className="size-3" />,
         },
         {
           type: "Source",
           href: "https://github.com/Rupesh-Piwal/TalentHire",
-          icon: Icons.github,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/talenthire_thumbnail.png",
@@ -245,12 +262,12 @@ export const DATA = {
         {
           type: "Live",
           href: "https://code-canvas-alpha1.vercel.app/",
-          icon: Icons.external,
+          icon: <Icons.external className="size-3" />,
         },
         {
           type: "Source",
           href: "https://github.com/Rupesh-Piwal/code-canvas",
-          icon: Icons.github,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/canvas.png",
@@ -278,12 +295,12 @@ export const DATA = {
         {
           type: "Live",
           href: "http://zapchat-kbke.onrender.com",
-          icon: Icons.external,
+          icon: <Icons.external className="size-3" />,
         },
         {
           type: "Source",
           href: "https://github.com/Rupesh-Piwal/zapchat",
-          icon: Icons.github,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/zapchat-thumbnail.png",
